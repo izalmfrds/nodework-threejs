@@ -1,0 +1,37 @@
+{
+  "meshes": 29,
+  "triangles": 11932,
+  "size_bytes": 146904,
+  "dimensions_m": [
+    2.740000009536743,
+    1.1679999828338623,
+    1.621999979019165
+  ],
+  "bounds": [
+    [
+      -1.3700000047683716,
+      -4.7455062007067186e-17,
+      -0.8100000023841858
+    ],
+    [
+      1.3700000047683716,
+      1.1679999828338623,
+      0.8119999766349792
+    ]
+  ],
+  "desktop_height_m": 0.798,
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "closed_and_consistent_meshes": {
+    "left_white_desktop": true,
+    "right_white_desktop": true,
+    "front_center_support_cabinet": true,
+    "right_drawer_pedestal": true,
+    "central_white_divider": true,
+    "rear_blue_divider_outline": true,
+    "front_support_blue_channel": true
+  },
+  "work_surfaces": 2,
+  "drawer_fronts": 3,
+  "external_textures": false
+}

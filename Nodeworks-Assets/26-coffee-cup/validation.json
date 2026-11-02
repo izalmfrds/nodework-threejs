@@ -1,0 +1,21 @@
+{
+  "meshes": 5,
+  "triangles": 4864,
+  "size_bytes": 116356,
+  "dimensions_m": [
+    0.09700000286102295,
+    0.1289999932050705,
+    0.09700000286102295
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "closed_and_consistent_meshes": {
+    "tapered_white_cup_shell": true,
+    "wide_upper_cobalt_band": true,
+    "thin_lower_cobalt_band": true,
+    "rolled_white_rim": true,
+    "recessed_blue_top_surface": true
+  },
+  "external_textures": false,
+  "animation": false
+}

@@ -1,0 +1,33 @@
+{
+  "meshes": 20,
+  "triangles": 10592,
+  "size_bytes": 162704,
+  "dimensions_m": [
+    1.600000023841858,
+    2.4000000953674316,
+    0.14850000292062768
+  ],
+  "bounds": [
+    [
+      -0.800000011920929,
+      -2.204364143572207e-18,
+      -0.05900000035762787
+    ],
+    [
+      0.800000011920929,
+      2.4000000953674316,
+      0.08950000256299981
+    ]
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "frame_watertight": true,
+  "frame_consistent_winding": true,
+  "glass_alpha_mode": "BLEND",
+  "glass_rgba": [
+    90,
+    161,
+    230,
+    68
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "meshes": 4,
+  "triangles": 868,
+  "size_bytes": 42192,
+  "dimensions_m": [
+    0.18000000715255737,
+    0.18000000715255737,
+    0.025000000372529037
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "closed_and_consistent_meshes": {
+    "rounded_white_icon_tile": true,
+    "top_rounded_diamond": true,
+    "middle_rounded_layer_chevron": true,
+    "lower_rounded_layer_chevron": true
+  },
+  "external_textures": false,
+  "animation": false
+}

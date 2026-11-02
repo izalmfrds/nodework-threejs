@@ -1,0 +1,32 @@
+{
+  "meshes": 16,
+  "triangles": 5056,
+  "size_bytes": 88324,
+  "dimensions_m": [
+    2.799999952316284,
+    0.7210000157356262,
+    0.5600000023841858
+  ],
+  "bounds": [
+    [
+      -1.399999976158142,
+      -1.585917625334321e-17,
+      -0.2800000011920929
+    ],
+    [
+      1.399999976158142,
+      0.7210000157356262,
+      0.2800000011920929
+    ]
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "upper_mount_watertight": true,
+  "upper_mount_consistent_winding": true,
+  "diffuser_emissive_factor": [
+    0.65,
+    0.82,
+    1.0
+  ],
+  "recessed_upper_fixing_slots": 2
+}

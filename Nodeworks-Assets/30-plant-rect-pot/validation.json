@@ -1,0 +1,29 @@
+{
+  "meshes": 13,
+  "triangles": 6656,
+  "size_bytes": 168516,
+  "dimensions_m": [
+    0.31349022686481476,
+    0.2800000011920929,
+    0.17716726660728455
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "closed_and_consistent_meshes": {
+    "hollow_white_rectangular_pot": true,
+    "recessed_soil": true,
+    "pointed_green_leaf_1": true,
+    "pointed_green_leaf_2": true,
+    "pointed_green_leaf_3": true,
+    "pointed_green_leaf_4": true,
+    "pointed_green_leaf_5": true,
+    "pointed_green_leaf_6": true,
+    "pointed_green_leaf_7": true,
+    "pointed_green_leaf_8": true,
+    "pointed_green_leaf_9": true,
+    "pointed_green_leaf_10": true,
+    "small_gray_side_label": true
+  },
+  "external_textures": false,
+  "animation": false
+}

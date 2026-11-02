@@ -1,0 +1,19 @@
+{
+  "meshes": 3,
+  "triangles": 3304,
+  "size_bytes": 252192,
+  "dimensions_m": [
+    0.6762551963329315,
+    0.18000000715255737,
+    0.021999999880790717
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "closed_and_consistent_meshes": {
+    "rounded_cobalt_logo_emblem": true,
+    "white_six_spoke_logo_mark": true,
+    "navy_nodeworks_wordmark": true
+  },
+  "external_textures": false,
+  "animation": false
+}

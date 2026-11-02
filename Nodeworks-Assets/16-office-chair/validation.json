@@ -1,0 +1,37 @@
+{
+  "meshes": 40,
+  "triangles": 15072,
+  "size_bytes": 300644,
+  "dimensions_m": [
+    0.6786222457885742,
+    1.0412840843200684,
+    0.6649365723133087
+  ],
+  "bounds": [
+    [
+      -0.3393111228942871,
+      -1.867586412496496e-17,
+      -0.316936582326889
+    ],
+    [
+      0.3393111228942871,
+      1.0412840843200684,
+      0.3479999899864197
+    ]
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "closed_and_consistent_meshes": {
+    "white_seat_cushion": true,
+    "white_backrest_cushion": true,
+    "blue_backrest_shell": true,
+    "left_white_arm_support": true,
+    "left_blue_armrest_pad": true,
+    "base_spoke_1": true,
+    "caster_1_twin_wheels": true
+  },
+  "base_spokes": 5,
+  "casters": 5,
+  "wheels": 10,
+  "external_textures": false
+}

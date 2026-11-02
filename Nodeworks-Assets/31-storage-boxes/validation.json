@@ -1,0 +1,34 @@
+{
+  "meshes": 18,
+  "triangles": 9216,
+  "size_bytes": 108168,
+  "dimensions_m": [
+    0.34700000286102295,
+    0.1619500070810318,
+    0.24960000067949295
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "closed_and_consistent_meshes": {
+    "blue_box_body": true,
+    "blue_lid_seam": true,
+    "blue_overhanging_lid": true,
+    "blue_front_dark_pull": true,
+    "blue_front_index_label": true,
+    "blue_side_dark_pull": true,
+    "blue_side_index_label": true,
+    "blue_lid_white_label_border": true,
+    "blue_lid_gray_label_inset": true,
+    "white_box_body": true,
+    "white_lid_seam": true,
+    "white_overhanging_lid": true,
+    "white_front_dark_pull": true,
+    "white_front_index_label": true,
+    "white_side_dark_pull": true,
+    "white_side_index_label": true,
+    "white_lid_small_gray_mark": true,
+    "white_lid_front_blue_tab": true
+  },
+  "external_textures": false,
+  "animation": false
+}

@@ -1,0 +1,34 @@
+{
+  "meshes": 3,
+  "triangles": 1536,
+  "size_bytes": 24716,
+  "dimensions_m": [
+    2.299999952316284,
+    0.054000001400709166,
+    0.18000000715255737
+  ],
+  "bounds": [
+    [
+      -1.149999976158142,
+      -5.082284023025726e-18,
+      -0.09000000357627869
+    ],
+    [
+      1.149999976158142,
+      0.05400000140070916,
+      0.09000000357627869
+    ]
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "closed_and_consistent_meshes": {
+    "cobalt_blue_base": true,
+    "white_emissive_band": true,
+    "pale_blue_top_inlay": true
+  },
+  "diffuser_emissive_factor": [
+    0.55,
+    0.75,
+    1.0
+  ]
+}

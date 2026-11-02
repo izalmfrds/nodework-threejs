@@ -1,0 +1,37 @@
+{
+  "meshes": 17,
+  "triangles": 12304,
+  "size_bytes": 337044,
+  "dimensions_m": [
+    3.200000047683716,
+    2.0399999618530273,
+    0.34099999070167547
+  ],
+  "bounds": [
+    [
+      -1.600000023841858,
+      -3.4290111434548132e-18,
+      -0.09399999678134918
+    ],
+    [
+      1.600000023841858,
+      2.0399999618530273,
+      0.2469999939203263
+    ]
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "housing_and_cards_closed_and_consistent": {
+    "white_board_housing": true,
+    "design_white_card": true,
+    "build_white_card": true,
+    "integrate_white_card": true
+  },
+  "text_geometry": [
+    "Build Your System",
+    "Design",
+    "Build",
+    "Integrate"
+  ],
+  "external_textures": false
+}

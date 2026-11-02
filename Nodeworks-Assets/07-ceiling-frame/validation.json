@@ -1,0 +1,29 @@
+{
+  "meshes": 14,
+  "triangles": 11754,
+  "size_bytes": 323220,
+  "dimensions_m": [
+    3.0399924516677856,
+    0.6068000057712197,
+    0.3514999896287918
+  ],
+  "bounds": [
+    [
+      -1.5199962258338928,
+      0.0,
+      -0.17499999701976776
+    ],
+    [
+      1.5199962258338928,
+      0.6068000057712197,
+      0.17649999260902408
+    ]
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "brackets_closed_and_consistent": {
+    "left_end_bracket": true,
+    "right_end_bracket": true
+  },
+  "subtractive_mounting_sockets": 4
+}

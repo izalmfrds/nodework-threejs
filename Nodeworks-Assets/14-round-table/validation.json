@@ -1,0 +1,38 @@
+{
+  "meshes": 9,
+  "triangles": 8088,
+  "size_bytes": 250340,
+  "dimensions_m": [
+    1.2200000286102295,
+    0.5499500036239624,
+    1.2200000286102295
+  ],
+  "bounds": [
+    [
+      -0.6100000143051147,
+      -2.0880227356104202e-17,
+      -0.6100000143051147
+    ],
+    [
+      0.6100000143051147,
+      0.5499500036239624,
+      0.6100000143051147
+    ]
+  ],
+  "tabletop_height_m": 0.43,
+  "tabletop_diameter_m": 1.22,
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "closed_and_consistent_meshes": {
+    "black_floor_contact_pad": true,
+    "dark_round_pedestal_base": true,
+    "central_dark_support": true,
+    "blue_lower_support_collar": true,
+    "white_under_table_mount": true,
+    "white_circular_tabletop": true,
+    "blue_tabletop_cube": true,
+    "cube_white_hexagonal_emblem": true,
+    "cube_emblem_gray_center": true
+  },
+  "external_textures": false
+}

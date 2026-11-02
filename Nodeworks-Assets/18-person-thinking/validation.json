@@ -1,0 +1,36 @@
+{
+  "meshes": 56,
+  "triangles": 24276,
+  "size_bytes": 454716,
+  "dimensions_m": [
+    0.6419999897480011,
+    1.6369999856688082,
+    0.33705492317676544
+  ],
+  "bounds": [
+    [
+      -0.32099999141693114,
+      2.6077031159421615e-11,
+      -0.14606511592864982
+    ],
+    [
+      0.32099999833106996,
+      1.6369999856948854,
+      0.19098980724811562
+    ]
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "closed_and_consistent_meshes": {
+    "peach_head": true,
+    "white_shirt_torso": true,
+    "left_trouser_leg": true,
+    "right_trouser_leg": true,
+    "left_shoe_upper": true,
+    "right_shoe_upper": true,
+    "right_thinking_hand": true
+  },
+  "pose": "static thinking pose",
+  "rigged": false,
+  "external_textures": false
+}

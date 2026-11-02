@@ -1,0 +1,19 @@
+{
+  "meshes": 19,
+  "triangles": 9040,
+  "size_bytes": 163764,
+  "dimensions_m": [
+    0.34025999903678894,
+    0.22463658452033997,
+    0.2730635851621628
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "closed_and_consistent_meshes": {
+    "laptop_base": true,
+    "laptop_screen_frame": true,
+    "laptop_trackpad_border": true
+  },
+  "external_textures": false,
+  "animation": false
+}

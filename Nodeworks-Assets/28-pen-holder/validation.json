@@ -1,0 +1,31 @@
+{
+  "meshes": 15,
+  "triangles": 2080,
+  "size_bytes": 97664,
+  "dimensions_m": [
+    0.07814985141158104,
+    0.15861500799655914,
+    0.07800000160932541
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "closed_and_consistent_meshes": {
+    "hollow_white_square_holder": true,
+    "tall_blue_pen_barrel": true,
+    "tall_blue_pen_top_collar": true,
+    "tall_blue_pen_click_button": true,
+    "tall_blue_pen_pocket_clip": true,
+    "short_blue_pen_barrel": true,
+    "short_blue_pen_top_collar": true,
+    "short_blue_pen_click_button": true,
+    "tall_gray_pen_barrel": true,
+    "tall_gray_pen_top_collar": true,
+    "tall_gray_pen_click_button": true,
+    "tall_gray_pen_pocket_clip": true,
+    "rear_gray_pen_barrel": true,
+    "rear_gray_pen_top_collar": true,
+    "rear_gray_pen_click_button": true
+  },
+  "external_textures": false,
+  "animation": false
+}

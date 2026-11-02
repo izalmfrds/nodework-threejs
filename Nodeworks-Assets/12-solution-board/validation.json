@@ -1,0 +1,37 @@
+{
+  "meshes": 20,
+  "triangles": 11728,
+  "size_bytes": 212012,
+  "dimensions_m": [
+    1.899999976158142,
+    1.600000023841858,
+    0.21050000190734872
+  ],
+  "bounds": [
+    [
+      -0.949999988079071,
+      -2.755455407573501e-18,
+      -0.07850000262260437
+    ],
+    [
+      0.949999988079071,
+      1.600000023841858,
+      0.13199999928474435
+    ]
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "closed_and_consistent_meshes": {
+    "white_solution_board_housing": true,
+    "blue_solution_badge": true,
+    "chart_bar_1": true,
+    "chart_bar_4": true,
+    "rising_chart_trend_arrow": true
+  },
+  "text_geometry": [
+    "Solution"
+  ],
+  "chart_bars": 4,
+  "checklist_rows": 3,
+  "external_textures": false
+}

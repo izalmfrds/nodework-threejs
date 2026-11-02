@@ -1,0 +1,35 @@
+{
+  "meshes": 24,
+  "triangles": 15068,
+  "size_bytes": 233096,
+  "dimensions_m": [
+    1.899999976158142,
+    1.600000023841858,
+    0.21050000190734872
+  ],
+  "bounds": [
+    [
+      -0.949999988079071,
+      -2.755455407573501e-18,
+      -0.07850000262260437
+    ],
+    [
+      0.949999988079071,
+      1.600000023841858,
+      0.13199999928474435
+    ]
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "closed_and_consistent_meshes": {
+    "white_problem_board_housing": true,
+    "blue_problem_badge": true,
+    "status_block_2_notched_body": true,
+    "status_block_3_notched_body": true
+  },
+  "text_geometry": [
+    "Problem",
+    "!"
+  ],
+  "external_textures": false
+}

@@ -1,0 +1,24 @@
+{
+  "meshes": 8,
+  "triangles": 3872,
+  "size_bytes": 50564,
+  "dimensions_m": [
+    0.2160000056028366,
+    0.028000000864267356,
+    0.16300000250339508
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "closed_and_consistent_meshes": {
+    "dark_bottom_cover": true,
+    "pale_page_block": true,
+    "page_edge_line_0": true,
+    "page_edge_line_1": true,
+    "page_edge_line_2": true,
+    "white_top_cover": true,
+    "white_bound_spine": true,
+    "continuous_blue_elastic_band": true
+  },
+  "external_textures": false,
+  "animation": false
+}

@@ -1,0 +1,34 @@
+{
+  "meshes": 6,
+  "triangles": 3740,
+  "size_bytes": 106580,
+  "dimensions_m": [
+    0.800000011920929,
+    0.7179999947547913,
+    0.5170000195503235
+  ],
+  "bounds": [
+    [
+      -0.4000000059604645,
+      -1.3716044573819253e-17,
+      -0.25600001215934753
+    ],
+    [
+      0.4000000059604645,
+      0.7179999947547913,
+      0.261000007390976
+    ]
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "closed_and_consistent_meshes": {
+    "white_cabinet_body": true,
+    "white_top_lid": true,
+    "dark_recessed_bottom_plinth": true,
+    "recessed_L_shaped_blue_inlay": true,
+    "upper_blue_handle_frame": true,
+    "plain_rear_cover": true
+  },
+  "subtractive_front_channel": true,
+  "external_textures": false
+}

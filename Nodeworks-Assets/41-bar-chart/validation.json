@@ -1,0 +1,20 @@
+{
+  "meshes": 4,
+  "triangles": 2048,
+  "size_bytes": 28616,
+  "dimensions_m": [
+    0.13099999725818634,
+    0.13199999928474426,
+    0.012000000104308135
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "closed_and_consistent_meshes": {
+    "ascending_blue_bar_1": true,
+    "ascending_blue_bar_2": true,
+    "ascending_blue_bar_3": true,
+    "ascending_blue_bar_4": true
+  },
+  "external_textures": false,
+  "animation": false
+}

@@ -1,0 +1,26 @@
+{
+  "meshes": 29,
+  "triangles": 24288,
+  "size_bytes": 413576,
+  "dimensions_m": [
+    2.8119999170303345,
+    1.8839999437332153,
+    0.39800000190734874
+  ],
+  "bounds": [
+    [
+      -1.4059999408721924,
+      1.2044115138988163e-25,
+      -0.16050000488758087
+    ],
+    [
+      1.405999976158142,
+      1.8839999437332153,
+      0.23749999701976784
+    ]
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "bezel_watertight": true,
+  "bezel_consistent_winding": true
+}

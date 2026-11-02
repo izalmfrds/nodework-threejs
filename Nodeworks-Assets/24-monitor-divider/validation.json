@@ -1,0 +1,27 @@
+{
+  "meshes": 11,
+  "triangles": 4864,
+  "size_bytes": 60792,
+  "dimensions_m": [
+    0.6200000047683716,
+    0.4050000011920929,
+    0.0729999989271164
+  ],
+  "finite_vertices": true,
+  "valid_face_indices": true,
+  "closed_and_consistent_meshes": {
+    "rounded_white_panel_shell": true,
+    "front_white_panel_face": true,
+    "rear_white_panel_face": true,
+    "left_dark_short_leg": true,
+    "left_dark_foot_cap": true,
+    "left_front_white_mount": true,
+    "left_rear_white_mount": true,
+    "right_dark_short_leg": true,
+    "right_dark_foot_cap": true,
+    "right_front_white_mount": true,
+    "right_rear_white_mount": true
+  },
+  "external_textures": false,
+  "animation": false
+}
