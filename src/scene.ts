@@ -24,7 +24,9 @@ export function mountFactoryScene(canvas: HTMLCanvasElement) {
   const scene = new THREE.Scene();
   scene.environmentIntensity = .25;
   const target = new THREE.Vector3(0, 3, 0);
-  const defaultDirection = new THREE.Vector3(.34, .09, 1).normalize();
+  // Keep the initial studio view slightly elevated so its roof, interior, and
+  // floor read together like the reference composition. Reset returns here.
+  const defaultDirection = new THREE.Vector3(.34, .14, 1).normalize();
   const cameraRadius = 30;
   const stage = canvas.closest<HTMLElement>('.hero-stage')!;
   const camera = new THREE.PerspectiveCamera(30, 1, .1, 120);
