@@ -2,7 +2,6 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
 import "lenis/dist/lenis.css";
-import { mountFactoryScene } from "./scene";
 import { whenScrollIdle } from "./scroll-idle";
 import "./style.css";
 
@@ -74,16 +73,14 @@ app.innerHTML = `
         </div>
       </div>
       <div class="hero-stage">
-        <div class="hero-orbits" aria-hidden="true"></div>
-        <div class="hero-scene" role="group" aria-label="Interactive Nodeworks 3D studio">
-          <canvas class="hero-canvas" tabindex="0" role="img" aria-label="3D studio. Drag or use arrow keys to rotate. Press Home to reset the view."></canvas>
-        </div>
-        <div class="scene-controls" role="group" aria-label="3D view controls">
-          <span class="scene-drag-hint">Drag to explore</span><span class="scene-touch-hint">Explore in 3D</span>
-          <button type="button" data-scene-view="left" aria-label="Rotate studio left"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m14 7-5 5 5 5"/></svg></button>
-          <button type="button" data-scene-view="reset" aria-label="Reset studio view"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 11a8 8 0 1 1 1 5M4 5v6h6"/></svg></button>
-          <button type="button" data-scene-view="right" aria-label="Rotate studio right"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m10 7 5 5-5 5"/></svg></button>
-        </div>
+        <img
+          class="hero-diorama"
+          src="${import.meta.env.BASE_URL}images/work/nodeworks_blue_diorama.svg"
+          width="1248"
+          height="1248"
+          decoding="async"
+          alt="Nodeworks software studio illustrated as a blue isometric diorama"
+        />
       </div>
       <div class="hero-actions">
         <a class="button button-primary" href="#work">Explore our work ${arrow}</a>
@@ -209,10 +206,6 @@ app.innerHTML = `
 
 `;
 
-const canvas = document.querySelector<HTMLCanvasElement>(".hero-canvas");
-if (!canvas) throw new Error("Hero canvas not found");
-const cleanups: Array<() => void> = [];
-
 const menuToggle = document.querySelector<HTMLButtonElement>(".menu-toggle");
 const mobileNav = document.querySelector<HTMLElement>(".mobile-nav");
 function setMenu(open: boolean) {
@@ -300,9 +293,9 @@ if (!reduceMotion) {
     },
   );
   gsap.fromTo(
-    ".hero-scene",
-    { autoAlpha: 0, y: 18 },
-    { autoAlpha: 1, y: 0, duration: 1.35, ease: "power2.out", delay: 0.15 },
+    ".hero-diorama",
+    { autoAlpha: 0, y: 24, scale: 0.97 },
+    { autoAlpha: 1, y: 0, scale: 1, duration: 1.35, ease: "power2.out", delay: 0.15 },
   );
 
   gsap.utils.toArray<HTMLElement>(".reveal").forEach((element) => {
@@ -347,7 +340,7 @@ document
 
 window.addEventListener("load", () => ScrollTrigger.refresh(), { once: true });
 
-// Model framing can resize the hero after its GLBs load or the viewport changes.
+// Keep smooth-scroll measurements aligned with the responsive hero artwork.
 let cancelLayoutRefresh = () => {};
 const heroLayoutObserver = new ResizeObserver(() => {
   cancelLayoutRefresh();
@@ -358,16 +351,9 @@ const heroLayoutObserver = new ResizeObserver(() => {
 });
 heroLayoutObserver.observe(document.querySelector(".hero")!);
 
-// The hero is the only WebGL canvas; project previews are static local images.
-const cancelSceneInitialization = whenScrollIdle(() =>
-  cleanups.push(mountFactoryScene(canvas)),
-);
-
 import.meta.hot?.dispose(() => {
-  cancelSceneInitialization();
   cancelLayoutRefresh();
   heroLayoutObserver.disconnect();
-  cleanups.forEach((cleanup) => cleanup());
   gsap.ticker.remove(tickSmoothScroll);
   document.removeEventListener("click", onAnchorClick);
   lenis?.destroy();

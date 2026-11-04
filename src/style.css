@@ -46,7 +46,7 @@ svg { width: 20px; height: 20px; flex: none; }
   padding-bottom: 24px;
   isolation: isolate;
   overflow: hidden;
-  background: radial-gradient(ellipse at 50% 43%, #f8faff 0%, #edf1ff 48%, #e2eaff 100%);
+  background: radial-gradient(ellipse at 50% 46%, #f8faff 0%, #edf2ff 45%, #e6ecfd 100%);
 }
 .hero-halo {
   position: absolute;
@@ -225,31 +225,19 @@ svg { width: 20px; height: 20px; flex: none; }
   width: 96%;
   height: clamp(430px, calc(34vw + 70px), 720px);
   margin: 14px auto 0;
+  display: grid;
+  place-items: center;
 }
-.hero-scene { position: absolute; z-index: 2; inset: 0; }
-.hero-scene canvas { display: block; width: 100%; height: 100%; cursor: grab; touch-action: pan-y; }
-.hero-scene canvas[data-dragging] { cursor: grabbing; }
-.hero-scene canvas:focus-visible { outline-offset: -4px; border-radius: 20px; }
-.hero-orbits {
+.hero-diorama {
+  display: block;
   position: absolute;
-  z-index: 0;
-  width: 138%;
-  height: 37%;
-  left: -19%;
-  bottom: 2%;
-  border: 1px solid #ffffffa6;
-  border-radius: 50%;
-  pointer-events: none;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 28px 38px rgba(31, 70, 164, .08));
+  transform-origin: center 58%;
 }
-.hero-orbits::before, .hero-orbits::after {
-  content: '';
-  position: absolute;
-  inset: 10% 10%;
-  border: 1px solid #ffffffb0;
-  border-radius: 50%;
-}
-.hero-orbits::after { inset: -12% -10%; border-color: #ffffff80; }
-.scene-error { position: absolute; top: 50%; left: 10%; right: 10%; color: var(--navy); text-align: center; }
 
 /* Selected works */
 .work-section { padding: 48px 0 118px; background: #fff; }
@@ -626,7 +614,7 @@ svg { width: 20px; height: 20px; flex: none; }
   .hero .hero-eyebrow { font-size: 13px; letter-spacing: .12em; }
   .hero h1 { max-width: 410px; margin-top: 15px; font-size: clamp(30px, 7.8vw, 40px); line-height: 1.12; }
   .hero-description { max-width: 360px; margin-top: 15px; font-size: 15px; line-height: 1.5; }
-  .hero-stage { width: 100%; height: clamp(240px, 65vw, 350px); margin-top: 25px; }
+  .hero-stage { width: 100%; height: clamp(300px, 78vw, 360px); margin-top: 25px; }
   .hero-actions { gap: 12px; margin: 17px 16px 0; }
   .hero-actions .button { min-height: 53px; min-width: 0; gap: 11px; padding: 0 18px; border-radius: 18px; font-size: 14px; }
   .hero-actions .button svg { width: 16px; height: 16px; }
@@ -641,44 +629,9 @@ svg { width: 20px; height: 20px; flex: none; }
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
 
-.scene-controls {
-  position: absolute;
-  z-index: 5;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  align-items: center;
-  gap: 3px;
-  padding: 5px 7px 5px 15px;
-  border: 1px solid #cdd9f4;
-  border-radius: 30px;
-  color: #526994;
-  background: #f6f9ffed;
-  box-shadow: 0 5px 20px #2b4e940a;
-}
-.scene-controls span { margin-right: 8px; font-size: 11px; white-space: nowrap; }
-.scene-controls button { display: grid; place-items: center; width: 34px; height: 34px; border: 0; border-radius: 50%; color: #315fbd; background: transparent; cursor: pointer; }
-.scene-controls button:hover { background: #e1ebff; }
-.scene-controls svg { width: 17px; height: 17px; }
-.scene-touch-hint { display: none; }
-@media (min-width: 901px) {
-  .scene-controls { left: auto; right: 8px; top: 50%; bottom: auto; transform: translateY(-50%); flex-direction: column; padding: 6px; }
-  .scene-controls span { display: none; }
-}
-@media (pointer: coarse) {
-  .scene-drag-hint { display: none; }
-  .scene-touch-hint { display: inline; }
-  .scene-controls button { width: 40px; height: 40px; }
-  .hero-scene canvas { cursor: auto; }
-}
 @media (max-width: 900px) { .work-availability { justify-self: end; } }
 @media (max-width: 600px) {
   .work-availability { margin-top: 16px; }
   .project-info { right: 23px; }
-  .scene-controls { bottom: -9px; }
-  .scene-controls button { width: 40px; height: 40px; }
-  .scene-drag-hint { display: none; }
-  .scene-touch-hint { display: inline; }
   .hero-actions { margin-top: 25px; }
 }
